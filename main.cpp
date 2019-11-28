@@ -1,5 +1,6 @@
 #include <iostream>
 
+//魚尾短くします
 using std::cout;
 using std::cin;
 
@@ -8,6 +9,7 @@ int main() {
   cout << "This will force memory leak . Are you sure ? ";
   cin >> response;
   
+  //大文字と小文字尾区別する
   if (response == 'Y' || response == 'y') {
     while(true) new int;
   } else if (response == 'N' || response == 'n') {
