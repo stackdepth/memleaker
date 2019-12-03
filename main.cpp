@@ -6,7 +6,7 @@ using std::cin;
 
 int main() {
   char response;
-  cout << "This will force memory leak . Are you sure ? ";
+  cout << "これにより、メモリ陸が発生します。本気ですか？　";
   cin >> response;
   
   //大文字と小文字尾区別する
